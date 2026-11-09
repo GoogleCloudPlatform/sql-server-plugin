@@ -21,7 +21,7 @@ The core logic for this extension is handled by a pre-built `toolbox` binary. Th
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/gemini-cli-extensions/sql-server.git
+    git clone https://github.com/GoogleCloudPlatform/sql-server-plugin.git
     cd sql-server
     ```
 

@@ -42,27 +42,27 @@ All harnesses use the same plugin; the MCP server runs via `npx` (no binary to d
 **Gemini CLI**
 
 ```bash
-gemini extensions install https://github.com/gemini-cli-extensions/sql-server
+gemini extensions install https://github.com/GoogleCloudPlatform/sql-server-plugin
 ```
 
 **Claude Code**
 
 ```bash
-claude plugin marketplace add gemini-cli-extensions/sql-server
+claude plugin marketplace add GoogleCloudPlatform/sql-server-plugin
 claude plugin install sql-server@sql-server
 ```
 
 **Codex**
 
 ```bash
-codex plugin marketplace add gemini-cli-extensions/sql-server
+codex plugin marketplace add GoogleCloudPlatform/sql-server-plugin
 codex plugin add sql-server@sql-server
 ```
 
 **Antigravity**
 
 ```bash
-agy plugin install https://github.com/gemini-cli-extensions/sql-server
+agy plugin install https://github.com/GoogleCloudPlatform/sql-server-plugin
 ```
 
 See [Configuration](#configuration) for how each harness supplies the connection settings.
@@ -136,7 +136,7 @@ Interact with SQl Server using natural language right from your IDE:
 ## Additional Extensions
 
 Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions), including:
-* [Cloud SQL for SQL Server extension](https://github.com/gemini-cli-extensions/cloud-sql-sqlserver)
+* [Cloud SQL for SQL Server extension](https://github.com/GoogleCloudPlatform/cloud-sql-sqlserver-plugin)
 * and more!
 
 ## Troubleshooting
